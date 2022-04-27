@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Felix.WebService.DTO\Felix.WebService.DTO.csproj" />
+    <ProjectReference Include="..\Felix.WebService.DAL\Felix.WebService.DAL.csproj" />
+    <ProjectReference Include="..\Felix.WebService.Validation\Felix.WebService.Validation.csproj" />
+  </ItemGroup>
+
+</Project>
